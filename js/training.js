@@ -7,9 +7,11 @@
 
 // document.querySelector('#ex1 .button').addEventListener('click', toggleNoDisplay);
 
+const button1 = document.querySelector('#ex1 .button');
+const text1 = document.querySelector('#ex1 .text');
 
-document.querySelector('#ex1 .button').addEventListener('click', function() {
-    document.querySelector('#ex1 .text').classList.toggle('hidden');
+button1.addEventListener('click', function() {
+    text1.classList.toggle('hidden');
 });
 
 
