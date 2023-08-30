@@ -1,6 +1,17 @@
 /* ------------------------------------ */
 /* --- Exercice 1 --- */
 
+// function toggleNoDisplay() {
+//     document.querySelector('#ex1 .text').classList.toggle('hidden');
+// }
+
+// document.querySelector('#ex1 .button').addEventListener('click', toggleNoDisplay);
+
+
+document.querySelector('#ex1 .button').addEventListener('click', function() {
+    document.querySelector('#ex1 .text').classList.toggle('hidden');
+});
+
 
 /* ------------------------------------ */
 /* --- Exercice 2 --- */

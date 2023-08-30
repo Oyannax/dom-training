@@ -248,10 +248,6 @@ body.dark-template {
     gap: 3rem;
 }
 
-.ex1 .text.hidden {
-    display: none;
-}
-
 .ex1 .button, .ex3 .button, .ex4 .button, .ex5 .button {
     padding: 1.5rem;
     font-size: 1.5rem;
