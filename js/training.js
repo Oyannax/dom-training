@@ -18,6 +18,11 @@ button1.addEventListener('click', function() {
 /* ------------------------------------ */
 /* --- Exercice 2 --- */
 
+const span = document.querySelector('#ex2 #ex2-scroll-value');
+
+setInterval(function() {
+    span.innerHTML = Math.floor(window.scrollY);
+}, 1000);
 
 /* ------------------------------------ */
 /* --- Exercice 3 --- */
