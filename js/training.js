@@ -37,6 +37,20 @@ button3.addEventListener('click', function() {
 /* ------------------------------------ */
 /* --- Exercice 4 --- */
 
+const button4 = document.querySelector('#ex4 .button');
+
+function setColor() {
+    button4.style.backgroundColor = button4.style.backgroundColor === 'red' ? 'green' : 'blue';
+}
+
+button4.addEventListener('click', function(event) {
+    if (event.detail === 1) {
+        this.style.backgroundColor = 'blue';
+    } else if (event.detail === 2) {
+        this.style.backgroundColor = 'red';
+        setInterval(setColor, 2000);
+    }
+});
 
 /* ------------------------------------ */
 /* --- Exercice 5 --- */
