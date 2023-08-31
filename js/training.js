@@ -27,6 +27,12 @@ setInterval(function() {
 /* ------------------------------------ */
 /* --- Exercice 3 --- */
 
+const button3 = document.querySelector('#ex3 .button');
+const animalsList = document.querySelector('#ex3 .flex-list');
+
+button3.addEventListener('click', function() {
+    animalsList.insertBefore(animalsList.firstElementChild, animalsList.lastChild);
+});
 
 /* ------------------------------------ */
 /* --- Exercice 4 --- */
