@@ -55,6 +55,13 @@ button4.addEventListener('click', function(event) {
 /* ------------------------------------ */
 /* --- Exercice 5 --- */
 
+const buttonsList = document.querySelector('#ex5 .flex-list');
+const colors = ['#C44C51', '#8CC6D7', '#FFDA8C', '#006D80', '#BDA44D', '#3C2000'];
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+buttonsList.addEventListener('mouseover', function(event) {
+    event.target.style.backgroundColor = randomColor;
+});
 
 /* ------------------------------------ */
 /* --- Exercice 6 --- */
